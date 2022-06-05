@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="styles/index.css">
     <title>The Art Gallery | Home</title>
 </head>
 <header> 
@@ -18,15 +18,15 @@
         <div class="topnav">
             <nav>
                 <ul>
-                    <a href="#"><li>HOME</li></a>
-                    <a href="#"><li>NEWS</li></a>
-                    <a href="#"><li>ABOUT</li></a>
-                    <a href="#"><li>CONTACT</li></a>
+                    <li><a href="#Home">HOME</a></li>
+                    <li><a href="#News">NEWS</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
         <!--Main title overlapping header image-->
-        <div class="title"> 
+        <div id="Home" class="title"> 
             <p>THE ART GALLERY</p>
             <p class="subtitle">More than just a white cube</p>
         </div>
@@ -34,13 +34,13 @@
 </header>
 <body>
     <!--"NEWS" section on main page-->
-<div class="parallax">
+<div id="News" class="parallax">
     <div class="news">
         <p>NEWS</p>
     </div>
 </div>
 <!--Container wrapping news stories-->
-<div class="container-news">
+<section class="container-news">
     <div class="container-news-1"><img src="/images/model_cut.png" class="img-fluid" alt="A model">
     <div class="overlay-1">ARTISTS ON THE MOVE
         <br>
@@ -80,15 +80,15 @@
         </div>
         </div>
     </div>
-     </div>
+  </section>
 
-<div class="parallax-2">
+<div id="About" class="parallax-2">
     <div class="about">
         <p>ABOUT</p>
     </div>
     </div>
+    <section class="container-about">
     <div class="container">
-        <div class="container-about">
         THE ART GALLERY lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -97,12 +97,14 @@
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
         consequat. 
     </div>
-    </div>
-    <div class="parallax-3">
+  </section>
+    <div id="Contact" class="parallax-3">
+      
         <div class="contact">
             <p>CONTACT</p>
         </div>
         </div>
+        
         <div class="container" style="line-height: 24px;">
             <div class="row">
                 <div class="col-3">
@@ -151,7 +153,7 @@
                  +46 1234567890   
                 </div>
             </div>
-        </div>   
+        </div>
 </body>
 
 </html>
