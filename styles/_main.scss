@@ -1,7 +1,7 @@
 @use 'variables';
 
 .parallax {
-    background-image: url(/images/news_cut.png);
+    background-image: url(../images/news_cut.png);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -10,7 +10,7 @@
 }
 
 .parallax-2 {
-    background-image: url(/images/koonts_cut.png);
+    background-image: url(../images/koonts_cut.png);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -39,7 +39,7 @@
 }
 
 .parallax-3 {
-    background-image: url(/images/contact_cut.png);
+    background-image: url(../images/contact_cut.png);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
